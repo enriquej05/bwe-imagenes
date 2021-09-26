@@ -30,6 +30,7 @@
           <!-- Column Content -->
         </div>
         <img src="/img/hooters-cancun-movil.png" alt="">
+        <img src="/img/feed-hooters-movil.png" alt="">
       
       </div>
     </div>
