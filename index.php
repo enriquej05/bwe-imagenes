@@ -33,6 +33,7 @@
         <img src="/img/feed-hooters-movil.png" alt="">
         <img src="/img/feed-prueba.png" alt="">
         <img src="/img/prueba.png" alt="">
+        <img src="/img/pruebita.svg" alt="">
       
       </div>
     </div>
