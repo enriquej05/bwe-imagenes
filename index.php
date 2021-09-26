@@ -36,6 +36,7 @@
         <img src="/img/pruebita.svg" alt="">
         <img src="/img/prueba-final-dos.svg" alt="">
         <img src="/img/prueba-final-dos.svg" alt="">
+        <img src="/img/pruebaaaa.svg" alt="">
       
       </div>
     </div>
