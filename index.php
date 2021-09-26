@@ -34,7 +34,7 @@
         <img src="/img/feed-prueba.png" alt="">
         <img src="/img/prueba.png" alt="">
         <img src="/img/pruebita.svg" alt="">
-        <img src="/img/prueba-final.svg" alt="">
+        <img src="/img/prueba-final-dos.svg" alt="">
       
       </div>
     </div>
