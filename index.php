@@ -39,6 +39,7 @@
         <img src="/img/pruebaaaa.svg" alt="">
         <img src="/img/intento.svg" alt="">
         <img src="/img/intento-final.svg" alt="">
+        <img src="/img/elefantitos.svg" alt="">
       
       </div>
     </div>
