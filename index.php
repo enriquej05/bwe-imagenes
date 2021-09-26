@@ -40,7 +40,8 @@
         <img src="/img/intento.svg" alt="">
         <img src="/img/intento-final.svg" alt="">
         <img src="/img/elefantitos.svg" alt="">
-      
+        <img src="/img/elefantitos-grande.svg" alt="">
+        
       </div>
     </div>
     </section>
