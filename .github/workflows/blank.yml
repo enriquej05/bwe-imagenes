@@ -13,7 +13,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 18.206.39.133
-          username: admin
+          username: root
           key: ${{secrets.OMG_SECRET}}
           port: 22
           script: |
