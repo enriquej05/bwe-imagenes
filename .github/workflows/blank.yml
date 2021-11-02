@@ -12,7 +12,7 @@ jobs:
       - name: testing bweimagenes server ssh connection
         uses: appleboy/ssh-action@master
         with:
-          host: 18.206.39.133
+          host: 172.31.95.68
           username: ubuntu
           key: ${{secrets.OMG_SECRET}}
           port: 22
