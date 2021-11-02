@@ -13,10 +13,12 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 18.206.39.133
-          username: root
+          username: ubuntu
           key: ${{secrets.OMG_SECRET}}
           port: 22
           script: |
+            cd ..
+            sudo su
             cd home/admin/web/18.206.39.133/public_html/
             git pull origin master
             git status
