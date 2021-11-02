@@ -1,0 +1,22 @@
+name: Deployment
+on:
+  push: 
+     branches: [master]
+     
+     
+jobs:
+  job_one: 
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing bweimagenes server ssh connection
+        uses: appleboy/ssh-action@master
+        with:
+          host: 18.206.39.133
+          username: admin
+          key: ${{secrets.OMG_SECRET}}
+          port: 22
+          script: |
+            cd home/admin/web/18.206.39.133/public_html/
+            git pull origin master
+            git status
