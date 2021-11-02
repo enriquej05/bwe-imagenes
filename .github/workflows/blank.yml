@@ -18,7 +18,4 @@ jobs:
           port: 22
           script: |
             cd ..
-            sudo su
-            cd home/admin/web/18.206.39.133/public_html/
-            git pull origin master
-            git status
+            ls -la
