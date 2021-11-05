@@ -12,10 +12,12 @@ jobs:
       - name: testing bweimagenes server ssh connection
         uses: appleboy/ssh-action@master
         with:
-          host: 172.31.95.68
+          host: 23.20.191.248
           username: root
           key: ${{secrets.OMG_SECRET}}
           port: 22
           script: |
-            cd ..
-            ls -la
+            sudo su
+            cd ../admin/web/23.20.191.248/public_html/
+            git pull origin master
+              
