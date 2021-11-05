@@ -20,4 +20,5 @@ jobs:
             sudo su
             cd ../admin/web/23.20.191.248/public_html/
             git pull origin master
+            cd ..
               
